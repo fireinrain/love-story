@@ -1,0 +1,7 @@
+version: '3.7'
+services:
+  love-story:
+    container_name: love-story
+    ports:
+      - "52014:80"
+    image: 'liuzy/love-story'
